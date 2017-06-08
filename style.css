@@ -58,6 +58,7 @@ img {
   min-height: 35px;
   font-family: Myriad;
   font-size: 16px;
+  margin-bottom: 0;
 }
 
 #secondary-nav .navbar-nav li {
