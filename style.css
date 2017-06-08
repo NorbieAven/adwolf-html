@@ -353,39 +353,14 @@ img {
 
 /*mobile responsive*/
 
-.primary-nav ,.mobile-primary-nav{
-  display: none;
-}
-
-.sub-menu-mobile{
-   display: none;
-}
 
 @media (max-width: 992px) {
 body{
   max-width: 100%;
   width: auto;
   }
-.primary-nav{
-  display: block;
-
-  }
-
-.sub-menu{
-  display: none;
-}
-
-  .sub-menu-mobile{
-    display: block;
-    background-color:  #45E7AB;
-  }
 
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;}
 
 .sub-item {
     float: left;
