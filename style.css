@@ -1,16 +1,21 @@
 @font-face { 
-font-family: Gotham;
-src: url(adwolf-font/GOTHAM-BLACK.TTF) ;
-src: url(adwolf-font/GOTHAM-MEDIUM.TTF) format('GOTHAM-MEDIUM'),
-      url(adwolf-font/gotham-ultra.ttf) format('gotham-ultra');
-
-font-family: MYRIADPRO-REGULAR;
-src: url(adwolf-font/MYRIADPRO-REGULAR.OTF) ;
+  font-family: GothamBold;
+  src: url('adwolf-font/GOTHAM-BOLD.TTF');
 }
 
+@font-face { 
+  font-family: Myriad;
+  src: url('adwolf-font/MYRIADPRO-REGULAR.OTF');
+}
 
 body{
-	background-color: #E7E7E7
+	background-color: #E9EBEE;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1080px;
+    }
 }
 
 img {
