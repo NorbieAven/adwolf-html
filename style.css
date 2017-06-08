@@ -77,32 +77,8 @@ img {
   color: #3E5467;
 }
 
-/*sub-menu*/
-.sub-menu {
-background-color: #45E7AB;
-}
-
-.sub-item a{
- color: #464243;
- font-size: 0.9em;
- font-family: MYRIADPRO-REGULAR;
-}
-
-.sub-menu > li{
-  margin-left:2px;
-  margin-right:2px;
-
-}
-
-.copyright{
-  color: #44b589
-}
-
-/*content page*/
-.content{
-	margin: 50px auto;
-    width: 80%;
-    padding: 10px;
+#secondary-nav .copyright {
+  color: #009D76;
 }
 
 /*sponsor page*/
