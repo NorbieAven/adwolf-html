@@ -15,40 +15,34 @@
 
 </head>
 <body>
-<header>
-	<nav class="navbar navbar-toggleable-md header-image img-responsive desktop-nav">
-      <div class="container">
-        <a class="navbar-brand img-responsive" href="#"><img src="img/logo.png" alt="Adwolf-roundup"></a>
-        <div class="collapse navbar-collapse" id="navbarsExampleContainer">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Trending <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Entertainment</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Living</a>
-            </li>
-               <li class="nav-item">
-              <a class="nav-link" href="#">Originals</a>
-            </li>
-               <li class="nav-item">
-              <a class="nav-link" href="#">Make A Post!</a>
-            </li>
+<header class="header-image">
+ <nav class="navbar transparent ">
+        <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+     
+      <img src="img/logo.png" alt="">
+    </div>
+
+        <div  id="navbar" class="collapse navbar-collapse">
+         <ul class="nav navbar-nav main-menu1">
+            <li class="main-item"><a href="#">Trending</a></li>
+            <li class="main-item"><a href="#">Entertainment</a></li>
+            <li class="main-item"><a href="#">Living</a></li>
+            <li class="main-item"><a href="#">Originals</a></li>
+            <li class="main-item"><a href="#">Make A Post!</a></li>
           </ul>
-          <form class="form-inline my-2 my-md-0">
-         <div class="icons">
-          <div id="bloc1" class=""><a href="#"><img src="img/facebook.png" alt=""></a></div>  
-          <div id="bloc2" class=""><a href="#"><img src="img/twitter.png" alt=""></a></div>
-          <div id="bloc2" class=""><a href="#"><img src="img/ig.png" alt=""></a></div>
-          <div id="bloc2" class=""><a href="#"><img src="img/email.png" alt=""></a></div>
-        </div>
+          <form class="navbar-right icowhite">
+             <div class="col">
+              <div id="bloc1" class=""><a href="#"><img src="img/facebook.png" alt=""></a></div>
+              <div id="bloc2" class=""><a href="#"><img src="img/twitter.png" alt=""></a></div>
+              <div id="bloc2" class=""><a href="#"><img src="img/ig.png" alt=""></a></div>
+              <div id="bloc2" class=""><a href="#"><img src="img/email.png" alt=""></a></div>
+             </div>
           </form>
         </div>
-      </div>
     </nav>
-
+	</header>
     <!--mobile menu-->
       <!--toggle menu dito nahinto!!!!!!!!!-->
     <div class="pos-f-t">
@@ -126,41 +120,27 @@
 
     <!--toggle top end-->
 
-    <nav class="navbar navbar-toggleable-md sub-menu ">
+    <nav class="navbar navbar-default sub-menu ">
       <div class="container">
 
-        <div class="collapse navbar-collapse" id="navbarsExampleContainer">
-          <ul class="navbar-nav mr-auto sub-menu">
-            <li class="sub-item active">
-              <a class="nav-link" href="#">Advertise <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="sub-item">
-              <a class="nav-link" href="#">Jobs</a>
-            </li>
-            <li class="sub-item">
-              <a class="nav-link" href="#">Newslatter</a>
-            </li>
-            <li class="sub-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-             <li class="sub-item">
-              <a class="nav-link" href="#">UserTerms</a>
-            </li>
-             <li class="sub-item">
-              <a class="nav-link" href="#">Help</a>
-            </li>
-            <li class="sub-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
+        <div  id="navbar" class="collapse navbar-collapse">
+         <ul class="nav navbar-nav">
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">UserTerms</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
           <form class="form-inline my-2 my-md-0 copyright">
-           	<label for="copyright">&#9400; 2017 Round Up</label>
+            <p class="navbar-text navbar-right copyright">&#9400; 2017 Round Up</p>
           </form>
         </div>
       </div>
     </nav>
     
-</header>
+
 
 <div class="row content">
   <div class="col-md-8 ">
@@ -312,6 +292,5 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/video.js" > </script>
 </body>
 </html>
