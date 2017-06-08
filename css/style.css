@@ -1,11 +1,11 @@
 @font-face { 
   font-family: GothamBold;
-  src: url('adwolf-font/GOTHAM-BOLD.TTF');
+  src: url('../adwolf-font/GOTHAM-BOLD.TTF');
 }
 
 @font-face { 
   font-family: Myriad;
-  src: url('adwolf-font/MYRIADPRO-REGULAR.OTF');
+  src: url('../adwolf-font/MYRIADPRO-REGULAR.OTF');
 }
 
 body{
@@ -27,7 +27,7 @@ img {
 /* primary nav menu */
 
 #primary-nav {
-  background-image: url('img/header.png');
+  background-image: url('../img/header.png');
   background-repeat: no-repeat;
   background-position: center;
   height: 128px;
