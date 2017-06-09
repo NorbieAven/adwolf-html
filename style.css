@@ -1,11 +1,16 @@
 @font-face { 
-font-family: Gotham;
-src: url(adwolf-font/GOTHAM-BLACK.TTF) ;
-src: url(adwolf-font/GOTHAM-MEDIUM.TTF) format('GOTHAM-MEDIUM'),
-      url(adwolf-font/gotham-ultra.ttf) format('gotham-ultra');
+  font-family: GothamBold;
+  src: url('adwolf-font/GOTHAM-BOLD.TTF');
+}
 
-font-family: MYRIADPRO-REGULAR;
-src: url(adwolf-font/MYRIADPRO-REGULAR.OTF) ;
+@font-face { 
+  font-family: Myriad;
+  src: url('adwolf-font/MYRIADPRO-REGULAR.OTF');
+}
+
+@font-face { 
+  font-family: GothamUltra;
+  src: url('adwolf-font/gotham-ultra.ttf');
 }
 
 
@@ -19,81 +24,120 @@ img {
     height: auto;
 }
 
-h1 h2 h3 h4 h5 h6 {
-
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1080px;
+    }
 }
 
-ul {
-  list-style-type: none;
+/* primary nav menu */
+
+#primary-nav {
+  background-image: url('img/header.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 128px;
+  font-family: GothamBold, sans-serif;
+  font-size: 20px;
+  margin-bottom: 0;
 }
 
-.container-fluid{
-padding-top: 15px;
+#primary-nav .navbar-nav{
+  margin-top: 40px;
 }
 
-.header-image {
-   background-image: url(img/header.png);
-   background-repeat: no-repeat;
-  -webkit-background-size: cover; 
-    -moz-background-size: cover;  
-    -o-background-size: cover;  
-    background-size: cover; 
-    width: 1366px;
-    height: 126px;
+#primary-nav .navbar-nav li a {
+  color: #fff;
 }
 
-.main-item a{
-  text-decoration: none;
- color: white;
- font-weight: bold;
- font-size: 1.5em;
-
+#primary-nav .navbar-nav li a:hover {
+  color: #00E4AB;
 }
 
-.icowhite{
- padding-top: 25px; 
- padding-right: 95px;
+#primary-nav .navbar-right {
+  padding: 2px;
 }
 
-.navbar-default {
-  border-style: none;
+/* secondary nav menu */
+#secondary-nav {
+  background-color: #00E4AB;
+  min-height: 35px;
+  font-family: Myriad;
+  font-size: 16px;
+  margin-bottom: 0;
 }
 
-.navbar{
-  margin-bottom: 0px;
+#secondary-nav .navbar-nav li {
+  padding-top: 6px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.main-menu1{
-    padding-top: 15px;
-}
-.nav{
-  padding-left: 30px;
+#secondary-nav .navbar-nav li a {
+  padding: 0;
+  color: #333;
 }
 
-.navbar-header{
-      padding-left: 150px;
+#secondary-nav .navbar-nav li a:hover {
+  color: #3E5467;
 }
 
-/*sub-menu*/
-.sub-menu {
-background-color: #45E7AB;
+#secondary-nav .copyright {
+  color: #009D76;
 }
 
-.sub-item a{
- color: #464243;
- font-size: 0.9em;
- font-family: MYRIADPRO-REGULAR;
+/* ads */
+.ad_space_1 {
+  height: 100px;
+  width: 100%;
 }
 
-.sub-menu > li{
-  margin-left:2px;
-  margin-right:2px;
-
+.ad_space_2 {
+  height: 100px;
+  width: 100%;
 }
 
-.copyright{
-  color: #44b589
+/* detail page - main */
+.detail_category {
+  background-color: #B7B7B7;
+  padding: 5px;
+  font-size: 18px;
 }
+
+.detail_title {
+  font-family: gothamUltra, Arial;
+  font-size: 42px;
+}
+
+.detail_subhead {
+  font-family: Arial;
+}
+
+.detail_date {
+  color: #939393;
+}
+
+.detail_author {
+  color: #2F82F2;
+  font-size: 20px;
+}
+
+.detail_author_des {
+  color: #303030;
+}
+
+#article p {
+  font-family: Myriad;
+}
+
+.leave_comment {
+  font-family: gothamUltra;
+}
+
+
+
+
 
 /*content page*/
 .content{
@@ -101,6 +145,7 @@ background-color: #45E7AB;
     width: 80%;
     padding: 10px;
 }
+
 
 /*sponsor page*/
 
@@ -121,7 +166,7 @@ background-color: #45E7AB;
   font-size: 2em;
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Gotham' 'GOTHAM-MEDIUM';
+  font-family: GothamBold;
   font-weight: bolder;
 }
 
@@ -129,7 +174,7 @@ background-color: #45E7AB;
   font-size: 1.2em;
   padding-left: 50px;
   padding-right: 50px;
-  font-family: MYRIADPRO-REGULAR;
+  font-family: Myriad;
 }
 
 .sponsor-clearfix > * {
@@ -142,7 +187,7 @@ background-color: #45E7AB;
 .clearsponsor {
     *zoom:1; /* for IE */
     padding-left:45px;
-     font-family: MYRIADPRO-REGULAR;
+     font-family: Myriad;
 }
 
 .clearsponsor:before,
@@ -160,7 +205,7 @@ background-color: #45E7AB;
  margin-top: -30px;
  margin-right: 3px;
  font-size: 0.8em;
-  font-family: MYRIADPRO-REGULAR;
+  font-family: Myriad;
 
 }
 
