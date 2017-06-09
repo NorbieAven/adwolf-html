@@ -551,8 +551,12 @@ ul {
     }
 
     .categories {
-    float: left;
+    float: right;
     margin-left: 38px;
+    }
+
+    .entry-meta {
+    font-size: 0.6em;
     }
 
     .article-img , .article-img-trending{
