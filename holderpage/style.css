@@ -508,13 +508,7 @@ ul {
     margin-left: 5px;
   }
   .ad-space {
-    text-decoration: none !important;
-    width:  320px;    
-    height: 100px;
-    background-color: #b7b7b7;
-    padding-top: 30px;
-    color: white;
-    font-weight: bolder;
+   display: none;
   }
 
   .side-ads{
@@ -623,19 +617,13 @@ ul {
 .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 
-.myslidess {display:none;}
+.myslidess {display:none}
 .w33-left, .w33-right, .w33-badge {cursor:pointer}
 
 
 @media (max-width: 412px) {
   .ad-space {
-    text-decoration: none !important;
-    width:  320px;    
-    height: 100px;
-    background-color: #b7b7b7;
-    padding-top: 30px;
-    color: white;
-    font-weight: bolder;
+   display: none;
   }
 
 }
@@ -767,9 +755,7 @@ and (max-device-width : 667px){
     }
 
     .ad-space {
-    width: 335px;
-    margin-left: auto ;
-  margin-right: auto ;
+   display: none;
 
       }
       .col-xs-6 {
@@ -781,7 +767,7 @@ and (max-device-width : 667px){
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px){
 
 .ad-space {
-    width: 374px;
+    display: none;
     }
 }
 
@@ -848,9 +834,7 @@ and (max-device-width : 667px){
       }
 
       .ad-space {
-    width: 496px;
-    height: 132px;
-    margin: auto;
+display: none;
       }
 
       label {
