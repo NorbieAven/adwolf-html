@@ -355,14 +355,14 @@ background-color: #45E7AB;
   margin-bottom: 15px;
 }
 
-.video1 span{
+.video1 label{
   color: #F56095;
   font-size: 1.5em;
   font-weight: bolder;
 }
 
-.video-title span{
-  padding-top: 20px;
+.video-title label{
+  padding-top: 8px;
   padding-left: 10px
 }
 
