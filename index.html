@@ -5,8 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Adwolf-roundup</title>
 
+	<title>Adwolf-roundup</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	   <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -15,14 +16,13 @@
 
 </head>
 <body>
-<header class="header-image">
- <nav class="navbar transparent ">
-        <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-     
-      <img src="img/logo.png" alt="">
-    </div>
+<header class="header-image img-responsive">
+    <nav class="navbar transparent ">
+      <div class="container-fluid">
+        <div class="navbar-header">
+
+            <img src="img/logo.png" alt="logo" class="img-responsive mainlogo">
+        </div>
 
         <div  id="navbar" class="collapse navbar-collapse">
          <ul class="nav navbar-nav main-menu1">
@@ -43,79 +43,18 @@
         </div>
     </nav>
 	</header>
+
     <!--mobile menu-->
       <!--toggle menu dito nahinto!!!!!!!!!-->
-    <div class="pos-f-t">
-  <nav class="navbar navbar-inverse primary-nav header-image img-responsive">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand img-responsive logo" href="#"><img src="img/logo.png" alt="Adwolf-roundup"></a>
-    <a href="#" class="login">LOGIN</a>
-  </nav>
-    <div class="collapse" id="navbarToggleExternalContent">
-    <div class="nav-collpase1 p-4">
-        <ul class="nav-collpase navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Trending <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Entertainment</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Living</a>
-            </li>
-               <li class="nav-item">
-              <a class="nav-link" href="#">Originals</a>
-            </li>
-               <li class="nav-item">
-              <a class="nav-link" href="#">Make A Post!</a>
-            </li>
+        <nav class="sub-menu-mobile ">
+          <ul class="sub-menu2-mobile">
+            <li class="sub-item"><a href="#">Trending</a></li>
+            <li class="sub-item"><a href="#">Entertainment</a></li>
+            <li class="sub-item"><a href="#">Living</a></li>
+            <li class="sub-item"><a href="#">Originals</a></li>
+            <li class="sub-item makeapost"><a href="#">MAKE A POST</a></li>
           </ul>
-    </div>
-        <div class="nav-collpase2 p-4">
-        <ul class=" navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Trending <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Entertainment</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Living</a>
-            </li>
-               <li class="nav-item">
-              <a class="nav-link" href="#">Originals</a>
-            </li>
-               <li class="nav-item">
-              <a class="nav-link" href="#">Make A Post!</a>
-            </li>
-          </ul>
-    </div>
-    <div class="container nav-collapse3">
-      <div class="row align-items-start">
-        <div class="col followus">
-          FOLLOW US!
-        </div>
-      <div class="col">
-        <div id="bloc1" class=""><a href="#"><img src="img/facebook-black.png" alt=""></a></div>
-        <div id="bloc2" class=""><a href="#"><img src="img/twitter-black.png" alt=""></a></div>
-        <div id="bloc2" class=""><a href="#"><img src="img/ig-black.png" alt=""></a></div>
-        <div id="bloc2" class=""><a href="#"><img src="img/email-black.png" alt=""></a></div>
-      </div>
-      </div>
-  </div>
-</div>
-
-  <nav class="sub-menu-mobile ">
-    <ul class="sub-menu2-mobile">
-      <li class="sub-item"><a href="#">Trending</a></li>
-      <li class="sub-item"><a href="#">Entertainment</a></li>
-      <li class="sub-item"><a href="#">Living</a></li>
-      <li class="sub-item"><a href="#">Originals</a></li>
-      <li class="sub-item makeapost"><a href="#">MAKE A POST</a></li>
-    </ul>
-    </nav>
+        </nav>
 
 
     <!--toggle top end-->
@@ -143,7 +82,7 @@
 
 
 <div class="row content">
-  <div class="col-md-8 ">
+  <div class="col-xs-12 col-md-8">
   	<div class="sponsor">
 
     <div class="sponsor-img img-responsive">
@@ -165,15 +104,17 @@
       </div>
 
   	</div>
+
   	<div class="article">
       <div class="article-img img-responsive">
-<img srcset=" img/image1.jpg 4025w, img/image1.jpg 3019w, img/image1.jpg 2013w, img/image1.jpg 1006w " src="img/image1.jpg" >
+       <img  src="img/image6.jpg"  alt="image"  class="image-size-mobile desktop" />
+      <img  src="img/image1.jpg"  alt="image"  class="image-size-mobile mobile"  />
      </div>
      <div class="article-content">
       <div class="article-title">
        <h1>How I Got Free Tickets to Britney Live in Manila <br>(Hint: Gotta Be A Super Fan!)</h1>
       </div>
-      <div class="clearfix float-my-children">
+      <div class="clearfix float-my-children clear-article">
        <img src="img/avatar-sample.jpg" class="avatar">
        <div class="entry-meta author-name"><a href="#">Pragmanila Solution Inc.</a> 
        <p class="time">.4hrs ago</p></div>
@@ -188,13 +129,14 @@
 
       <div class="article">
         <div class="article-img">
-          <img  src="img/image5.jpg"  alt="image" />
+          <img  src="img/image5.jpg"  alt="image" class="image-size-mobile desktop" />
+          <img  src="img/image2.jpg"  alt="image" class="image-size-mobile mobile" />
         </div>
      <div class="article-content">
       <div class="article-title">
        <h1>To Adult or Not To Adult, <br> That is Question.</h1>
       </div>
-      <div class="clearfix float-my-children">
+      <div class="clearfix float-my-children clear-article categories-2">
        <img src="img/avatar-sample.jpg" class="avatar">
        <div class="entry-meta author-name"><a href="#">Pragmanila Solution Inc.</a> 
        <p class="time">.4hrs ago</p></div>
@@ -208,7 +150,8 @@
 
       <div class="article-trending">
         <div class="article-img-trending">
-          <img  src="img/image7.jpg"  alt="image" />
+          <img  src="img/image7.jpg"  alt="image" class="image-size-mobile desktop" />
+          <img  src="img/image10.jpg"  alt="image" class="image-size-mobile mobile" />
         </div>
      <div class="article-content">
       <div class="article-title2">
@@ -216,12 +159,12 @@
        <h1>Miley Cyrus Proved What A Supportive Friend She is At Arianna Grande's Benefit Concert</h1>
        <p class="article-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales, dui at blandit convallis, odio neque auctor urna, "</p>
       </div>
-      <div class="clearfix float-my-children">
+      <div class="clearfix float-my-children clear-article ">
        <img src="img/avatar-sample.jpg" class="avatar">
        <div class="entry-meta author-name"><a href="#">Pragmanila Solution Inc.</a> 
        <p class="time">.4hrs ago</p></div>
       </div>
-     <div class="categories">
+     <div class="categories cat-trend">
         <div id="bloc1" class="categories-LIVING">LIVING</div>  
         <div id="bloc2" class="categories-LITERATURE">LITERATURE</div>
       </div>
@@ -252,7 +195,7 @@
     </div>
 
   </div>
-  <div class="col-md-4 side-ads ">
+  <div class="col-xs-6 col-md-4 side-ads ">
     <div class="ad-space">
       <label for="ads">AD SPACE</label>
     </div>
@@ -285,6 +228,87 @@
   </div>
 </div>
 
+
+<div class="row content slides-div">
+<div class="col-md-4">
+<div class="hidden-xl hidden-lg ">
+<div class="w3-content w3-display-container slides " style="max-width:100%">
+<div class="carousel-head">
+  <h1> HOT ARTICLE!</h1>
+</div>
+  <div class="carousel mySlides">
+    <div class="sponsor-img img-responsive">
+      <img src="img/carousel-1.jpg" alt="">  
+    </div>
+     <div class="sponsor-title">
+       <h1>Miley Cyrus Proved What A Supportive Friend She is At Arianna Grande's Benefit Concert</h1>
+      </div>
+    </div>
+    <div class="carousel mySlides">
+    <div class="sponsor-img img-responsive">
+      <img src="img/carousel-1.jpg" alt="">  
+    </div>
+     <div class="sponsor-title">
+       <h1>Miley Cyrus Proved What A Supportive Friend She is At Arianna Grande's Benefit Concert</h1> 
+      </div>
+    </div>
+    <div class="carousel mySlides">
+    <div class="sponsor-img img-responsive">
+      <img src="img/carousel-1.jpg" alt="">  
+    </div>
+     <div class="sponsor-title">
+       <h1>Miley Cyrus Proved What A Supportive Friend She is At Arianna Grande's Benefit Concert</h1>
+      </div>
+    </div>
+  <div class="w3-center w3-container w3-section w3-large w3-text-black w3-display-bottommiddle arrow" style="width:100%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-4">
+<div class="hidden-xl hidden-lg">
+<div class="w3-content w3-display-container slides" style="max-width:100%">
+<div class="carousel-head2">
+  <h1>TRENDING!</h1>
+</div>
+  <div class="carousel myslidess">
+    <div class="sponsor-img img-responsive">
+      <img src="img/bear.png" alt="">  
+    </div>
+     <div class="sponsor-title">
+       <h1>Miley Cyrus Proved What A Supportive Friend She is At Arianna Grande's Benefit Concert</h1>
+      </div>
+    </div>
+    <div class="carousel myslidess">
+    <div class="sponsor-img img-responsive">
+      <img src="img/carousel-1.jpg" alt="">  
+    </div>
+     <div class="sponsor-title">
+       <h1>Miley Cyrus Proved What A Supportive Friend She is At Arianna Grande's Benefit Concert</h1> 
+      </div>
+    </div>
+    <div class="carousel myslidess">
+    <div class="sponsor-img img-responsive">
+      <img src="img/carousel-1.jpg" alt="">  
+    </div>
+     <div class="sponsor-title">
+       <h1>Miley Cyrus Proved What A Supportive Friend She is At Arianna Grande's Benefit Concert</h1>
+      </div>
+    </div>
+  <div class="w3-center w3-container w3-section w3-large w3-text-black w3-display-bottommiddle arrow" style="width:100%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -292,5 +316,7 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/slide-mobile.js"></script>
+    <script src="js/slide-mobile2.js"></script>
 </body>
 </html>
