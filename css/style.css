@@ -8,6 +8,11 @@
   src: url('../adwolf-font/MYRIADPRO-REGULAR.OTF');
 }
 
+@font-face { 
+  font-family: GothamUltra;
+  src: url('../adwolf-font/gotham-ultra.ttf');
+}
+
 body{
 	background-color: #E9EBEE;
 }
@@ -22,6 +27,10 @@ img {
     max-width: 100%;
     width: auto;
     height: auto;
+}
+
+.navbar {
+  border: none !important;
 }
 
 /* primary nav menu */
@@ -79,6 +88,54 @@ img {
 
 #secondary-nav .copyright {
   color: #009D76;
+}
+
+/* ads */
+.ad_space_1 {
+  height: 100px;
+  width: 100%;
+}
+
+.ad_space_2 {
+  height: 100px;
+  width: 100%;
+}
+
+/* detail page - main */
+.detail_category {
+  background-color: #B7B7B7;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.detail_title {
+  font-family: gothamUltra, Arial;
+  font-size: 42px;
+}
+
+.detail_subhead {
+  font-family: Arial;
+}
+
+.detail_date {
+  color: #939393;
+}
+
+.detail_author {
+  color: #2F82F2;
+  font-size: 20px;
+}
+
+.detail_author_des {
+  color: #303030;
+}
+
+#article p {
+  font-family: Myriad;
+}
+
+.leave_comment {
+  font-family: gothamUltra;
 }
 
 /*sponsor page*/
